@@ -2,7 +2,9 @@
 
 English | [简体中文](README.zh-CN.md)
 
-A Clawdbot skill to capture and archive Xiaohongshu (小红书 / RED) posts from a shared link into a clean **notes + media + metadata** structure, with optional Gemini video analysis.
+An OpenClaw skill to capture and archive Xiaohongshu (小红书 / RED) posts from a shared link into a clean **notes + media + metadata** structure, with optional Gemini video analysis.
+
+> Note: OpenClaw was previously known as **Clawdbot** (and earlier iterations such as **moltbot**).
 
 ## Features
 

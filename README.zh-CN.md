@@ -2,7 +2,9 @@
 
 [English](README.md) | 简体中文
 
-一个 Clawdbot Skill：把小红书（Xiaohongshu / 小红书 / RED）的分享链接归档为清晰的 **笔记 + 媒体 + 元数据** 结构，并支持可选的 Gemini 视频理解分析。
+一个 OpenClaw Skill：把小红书（Xiaohongshu / 小红书 / RED）的分享链接归档为清晰的 **笔记 + 媒体 + 元数据** 结构，并支持可选的 Gemini 视频理解分析。
+
+> 备注：OpenClaw 之前曾使用过 **Clawdbot** 这一名称（以及更早期的 **moltbot** 等）。
 
 ## 功能特性
 
