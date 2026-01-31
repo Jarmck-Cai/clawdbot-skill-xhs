@@ -20,6 +20,7 @@ source skills/xhs/.env
 
 # 1. Extract data from URL
 python3 skills/xhs/scripts/xhs_bridge.py "https://www.xiaohongshu.com/explore/..."
+# This writes `xhs_last_run.json` to your current working directory.
 
 # 2. Archive (download media + create note)
 python3 skills/xhs/scripts/xhs_archive.py xhs_last_run.json
