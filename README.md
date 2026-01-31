@@ -30,6 +30,8 @@ playwright install chromium
 
 ## Setup
 
+**Tip**: You can create a file named `.env` inside `skills/xhs/` with these variables, then run `source skills/xhs/.env` before usage.
+
 ### 1) Provide XHS cookie (required)
 
 ```bash

@@ -10,15 +10,19 @@ Extracts and archives content from Xiaohongshu posts with a "Triple-Level Archiv
 ## Quick Start
 
 ```bash
+# 0. Load Config (Important!)
+# Create a .env file with XHS_COOKIE='...' and XHS_OUTPUT_DIR='...'
+# then load it:
+source skills/xhs/.env
+
 # 1. Extract data from URL
-python3 scripts/xhs_bridge.py "https://www.xiaohongshu.com/explore/..."
+python3 skills/xhs/scripts/xhs_bridge.py "https://www.xiaohongshu.com/explore/..."
 
 # 2. Archive (download media + create note)
-python3 scripts/xhs_archive.py xhs_last_run.json
+python3 skills/xhs/scripts/xhs_archive.py xhs_last_run.json
 
 # 3. With video analysis (requires GEMINI_API_KEY)
-# Includes automatic retry/backoff on transient 429s
-python3 scripts/xhs_archive.py xhs_last_run.json --analyze
+python3 skills/xhs/scripts/xhs_archive.py xhs_last_run.json --analyze
 ```
 
 ## Environment Variables
