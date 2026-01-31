@@ -32,6 +32,8 @@ playwright install chromium
 
 **提示**：你可以创建一个名为 `.env` 的文件（建议放在 `skills/xhs/` 目录），写入以下变量，并在使用前运行 `source skills/xhs/.env`。
 
+**工作目录**：以下命令默认在“能看到 `skills/xhs/` 的目录”执行（即 `ls skills/xhs` 能成功）。
+
 ### 1) 提供小红书 Cookie（必需）
 
 ```bash

@@ -10,6 +10,9 @@ Extracts and archives content from Xiaohongshu posts with a "Triple-Level Archiv
 ## Quick Start
 
 ```bash
+# Working directory:
+# Run these commands from a directory where `skills/xhs/` exists (i.e., `ls skills/xhs` works).
+
 # 0. Load Config (Important!)
 # Create a .env file with XHS_COOKIE='...' and XHS_OUTPUT_DIR='...'
 # then load it:
