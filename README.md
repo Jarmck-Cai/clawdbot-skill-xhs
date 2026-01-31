@@ -86,9 +86,17 @@ python3 skills/xhs/scripts/xhs_archive.py xhs_last_run.json --analyze pro
 - Never commit cookies, API keys, or captured media.
 - See `SECURITY.md`.
 
-## Disclaimer
+## Disclaimer / Compliance
 
-This project is for personal archiving and research workflows. Respect platform ToS and local laws.
+This project is provided **for educational and research purposes only**. It uses non-official techniques (e.g., browser automation and user-provided cookies) and **is not affiliated with Xiaohongshu/RED**.
+
+By using this project, you agree to:
+- Use it **at your own risk**.
+- Respect Xiaohongshu/RED’s Terms of Service and applicable laws.
+- Avoid abusive behavior (high-frequency crawling, scraping at scale, or causing pressure to the service).
+- Never share or commit sensitive data such as cookies or API keys.
+
+The authors/contributors provide **no warranty** and are not responsible for account restrictions, bans, or any damage caused by misuse.
 
 ## License
 
