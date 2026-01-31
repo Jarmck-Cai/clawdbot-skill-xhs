@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.*
+secrets/
+
+# Outputs
+xhs_captures/
+xhs_last_run.json
+xhs_video_analysis.json
+
+# Media
+*.mp4
+*.webm
+*.mkv
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# OS
+.DS_Store
